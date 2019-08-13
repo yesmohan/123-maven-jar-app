@@ -1,0 +1,4 @@
+mvn archetype:generate -DgroupId=com.mohan.app -DartifactId=sample-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn test org.owasp:dependency-check-maven:check
+
